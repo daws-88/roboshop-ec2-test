@@ -24,3 +24,7 @@ output "private_ip" {
 output "public_ip" {
   value = module.cart.public_ip
 }
+
+output "instance_id" {
+  value = module.cart.instance_id
+}
